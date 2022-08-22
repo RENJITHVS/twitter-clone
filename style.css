@@ -1,0 +1,119 @@
+i{
+    cursor: pointer;
+}
+
+textarea {
+    border-style: hidden;
+    padding-left: 1rem;
+}
+  
+textarea:focus {
+outline: none;
+}
+
+.left_nav_section {
+height: 100vh;
+top: 0px;
+}
+
+.happening_box {
+background-color: #efefef;
+border-radius: 20px;
+}
+
+.nav_icons {
+    padding : .5rem;
+    font-size: 1.8rem;
+    -webkit-text-stroke: 1px white;
+}
+
+.nav_icons:hover {
+border-radius: 50%;
+background-color: rgba(1,1,1, 0.1);
+}
+.bxl-twitter{
+    padding : .4rem;
+    border-radius: 50%;
+}
+
+.bxl-twitter:hover {
+    background-color: rgba(224, 234, 238, 0.9);
+}
+.profile_icon{
+    margin-bottom: 1rem;
+}
+.profile_icon > img{
+    width: 50px;
+    border-radius: 50%;
+}
+
+.profile_icon > img:hover{
+   border: 6px solid rgba(1,1,1, 0.1) ;
+}
+.fixed {
+    width:50px;
+}
+
+.fixed > img{
+    width:50px;
+    border-radius: 50% !important;
+}
+
+.tweet-icon {
+    padding: .4rem;
+    color: rgb(29, 155, 240);
+    border-radius: 50%;
+}
+.tweet-icon:hover {
+    background-color: rgba(224, 234, 238, 0.9);
+}
+.tweet-button {
+    font-weight: 700;
+    color: #efefef;
+    background-color: rgb(29, 155, 240);
+    padding: .4rem .9rem;
+    border-radius: 5rem;
+    border: none;
+}
+.show-more-button {
+    color: rgb(29, 155, 240);
+    border-width: thin;
+    border-top: .05px solid rgba(1,1,1, 0.1);
+    border-bottom: .05px solid rgba(1,1,1, 0.1);
+}
+.show-more-button:hover {
+    background-color: rgba(224, 234, 238, 0.9);
+}
+.row-element:hover {
+    background-color: rgba(224, 234, 238, 0.9)
+}
+
+.tweet span {
+    color: rgba(1,1,1, 0.4);
+}
+.tweet .bxs-badge-check {
+    color: rgb(29, 155, 240);
+}
+.tweet a {
+    text-decoration: none;
+    font-weight: 500;
+    color: rgb(29, 155, 240);
+}
+.tweet img {
+    border-radius: 12px;
+}
+.position-sticky input[type=text]{
+     width: 100%;
+     padding:1.5rem;
+     border-radius: 25px;
+     border: none;
+     background-color: rgba(224, 234, 238, 0.9);
+     color: #a0d18c;
+     height: 30px;
+     padding-left: 10px;
+    }
+    
+.position-sticky input[type=text]:focus {
+     border: 1px solid rgb(29, 155, 240);
+     background-color: #eee;
+}
